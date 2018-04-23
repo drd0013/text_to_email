@@ -4,4 +4,5 @@ from django.http import HttpResponse
 
 
 def first_view(request):
+    import ipdb; ipdb.set_trace()
     return HttpResponse(200)
